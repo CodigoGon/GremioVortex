@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #03045E;
+    font-family: "Noto Serif Display", serif;
+}
+body {
+  background-color: #CAF0F8;
+}
+
+.titulo {
+  background: #00B4D8;
+  width: 100%;
+}
+.encabezado {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    font-size: 200%;
+    color: #03045E;
+}
+.encabezado h1 {
+    border: 5px solid #023E8A;
+    font-family: "Noto Serif Display", serif;
+    font-size: 300%;
+    text-shadow: -3px 3px 10px #03045E;
+    border-radius: 150px;
+}
+
+.contenedor {
+
+    display: flex;
+    margin: 70px auto 0;
+    width: 60%;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 200%;
+    color: #03045E;
+    border: #023E8A solid 10px;
+    border-radius: 150px;
+    padding: 10px;
+    font-family: "Noto Serif Display", serif;
+    text-shadow: -3px 3px 10px #03045E;
+  
+  }
+  
+  .seccion {
+  
+    margin-bottom: 10px;
+  
+  }
+  
+  .seccion span {
+  
+    font-size: 200%;
+  
+    font-weight: bold;
+  
+  }
+  
+  .seccion label {
+  
+    font-size: 70%;
+  
+    text-transform: uppercase;
+  
+  }
+  .sub-iconos {
+    margin: 25px auto 0px;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 150%;
+  }
+
+.iconos {
+  width: 30%;
+  margin:  15px auto 0px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 75px auto;
+}
+.iconos img {
+    width: 50px;
+    padding: 2px;
+    background-color: #ADE8F4;
+    border-radius: 10px;
+}
+/*aaaa https://coolors.co/palette/000814-001d3d-003566-ffc300-ffd60a  */
