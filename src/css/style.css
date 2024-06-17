@@ -1,11 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    color: #03045E;
-    font-family: "Noto Serif Display", serif;
+    color: #0056d8;
+    font-family: "Spectral", serif;
+
 }
 body {
   background-color: #CAF0F8;
+
 }
 
 .titulo {
@@ -22,16 +24,34 @@ body {
 }
 .encabezado h1 {
     border: 5px solid #023E8A;
-    font-family: "Noto Serif Display", serif;
     font-size: 300%;
     text-shadow: -3px 3px 10px #03045E;
     border-radius: 150px;
 }
 
-.contenedor {
+.fondo{
+  width: 100%; /* Ancho del div */
+  height: 400px; /* Altura del div */
+  background-image: url(../media/2024-06-14_23.23.14.png); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el div */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat;
+  padding: 50px 0px;
+  margin: auto;
+  text-align: center;
+}
+.proyecto9 {
+  font-size: 300%;
+  text-shadow: -3px 3px 10px #080808;
+  background-color: #080808;
+  display: flexbox;
+  text-align: center;
+  margin: auto;
+}
 
+.contenedor {
     display: flex;
-    margin: 70px auto 0;
+    margin: auto;
     width: 60%;
     align-items: center;
     justify-content: space-evenly;
@@ -41,14 +61,20 @@ body {
     border: #023E8A solid 10px;
     border-radius: 150px;
     padding: 10px;
-    font-family: "Noto Serif Display", serif;
     text-shadow: -3px 3px 10px #03045E;
+    background-color: #027a8aa4;
+  }
+
   
+  .contenedor img {
+    width: 100%;
+    z-index:;
   }
   
   .seccion {
   
     margin-bottom: 10px;
+    z-index: 1;
   
   }
   
@@ -74,6 +100,7 @@ body {
     justify-content: center;
     display: flex;
     font-size: 150%;
+    text-shadow: -3px 3px 2px #080808;
   }
 
 .iconos {
@@ -88,5 +115,27 @@ body {
     padding: 2px;
     background-color: #ADE8F4;
     border-radius: 10px;
+}
+.iconos img:hover {
+  background-color: #023E8A;
+}
+
+footer {
+  background-color: #03045E;
+  position: relative;
+  justify-content: end;
+  max-height: 100px;
+}
+
+p {
+  display: flex;
+  text-align: end;
+  margin: auto;
+  width: 50%;
+  color: #03045E;
+}
+.final {
+  text-align: end;
+  color: #CAF0F8;
 }
 /*aaaa https://coolors.co/palette/000814-001d3d-003566-ffc300-ffd60a  */
